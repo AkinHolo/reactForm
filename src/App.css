@@ -1,0 +1,40 @@
+body {
+    margin: 20px;
+    min-height: 100vh;
+    background-image: url('./Assets/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+ 
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: gold;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h5 {
+    color: whitesmoke;
+    text-align: left;
+    padding-top: 20px;   
+}
+
+Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 400px;
+}
+
+.form-group {
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+Button {
+    width: 300px;
+}
